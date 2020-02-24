@@ -1,4 +1,3 @@
-
 #!groovy
 // Check ubntnginx properties
 properties([disableConcurrentBuilds()])
