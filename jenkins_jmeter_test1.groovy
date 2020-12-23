@@ -18,7 +18,7 @@ pipeline {
         }
         stage("Second step") {
             steps {
-                sh 'bin/jmeter -n -t pacingTimerExample/pacingTimerExampleUbuntu.jmx -l /mnt/d/PT/stud_projects/tests_JMeter/pacingTimerExample/log/result3.csv  -e -o /mnt/d/PT/stud_projects/tests_JMeter/pacingTimerExample/html/report/'
+                sh '/home/rasteppp/jmeter/apache-jmeter-5.3/bin/jmeter -n -t pacingTimerExample/pacingTimerExampleUbuntu.jmx -l /mnt/d/PT/stud_projects/tests_JMeter/pacingTimerExample/log/result3.csv  -e -o /mnt/d/PT/stud_projects/tests_JMeter/pacingTimerExample/html/report/'
             }
         }
     }
